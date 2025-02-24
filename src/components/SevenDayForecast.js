@@ -14,7 +14,7 @@ export const Forecast = () => {
   return (
     <div className="card">
       <h2 className="text-lg text-blue-300">7-Day Forecast</h2>
-      <div className="grid grid-cols-7 gap-3 mt-3">
+      <div className="grid grid-cols-4 gap-2 mt-3">
         {forecastData.map((day) => (
           <div key={day.day} className="text-center">
             <p className="text-xl">{day.icon}</p>
