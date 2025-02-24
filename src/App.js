@@ -1,7 +1,7 @@
 import React from "react";
 import { WeatherOverview } from "./components/WeatherOverview";
 import { RainfallPrediction } from "./components/RainfallPrediction";
-import { Forecast } from "./components/Forecast";
+import { Forecast } from "./components/SevenDayForecast";
 import "./index.css";
 
 function App() {
